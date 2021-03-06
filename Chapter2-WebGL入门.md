@@ -1,4 +1,4 @@
-Canvas
+# Canvas
 
 HTML5出现前，网页上显示图像只能用HTML的原生方案<img>标签，但只能显示静态图片，不能实时绘制和渲染。后来出现第三方解决方案，如Flash Player
 
