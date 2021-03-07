@@ -1,3 +1,5 @@
+// chapter 2
+// 绘制矩形
 function main() {
   // 获取<canvas>元素
   // Retrieve <canvas> element
