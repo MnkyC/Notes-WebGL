@@ -1,19 +1,21 @@
 // chapter 2
-// 绘制一个点，接触着色器语法
+// 绘制一个点，使用attribute传值
 
 // 顶点着色器程序
 // Vertex shader program
 var VSHADER_SOURCE =
+  'attribute vec4 a_Position;\n' + // 声明attribute变量 attribute variable
+  'attribute float a_PointSize;\n' +
   'void main() {\n' +
-  '  gl_Position = vec4(0.0, 0.0, 0.0, 1.0);\n' + // 设置坐标 Set the vertex coordinates of the point
-  '  gl_PointSize = 10.0;\n' +                    // 设置尺寸 Set the point size
+  '  gl_Position = a_Position;\n' +
+  '  gl_PointSize = a_PointSize;\n' +
   '}\n';
 
 // 片元着色器程序
 // Fragment shader program
 var FSHADER_SOURCE =
   'void main() {\n' +
-  '  gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n' + // 设置颜色 Set the point color
+  '  gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n' +
   '}\n';
 
 function main() {
@@ -36,9 +38,23 @@ function main() {
     return;
   }
 
+  // 获取attribute变量的存储位置
+  // Get the storage location of a_Position
+  var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
+  var a_PointSize = gl.getAttribLocation(gl.program, 'a_PointSize');
+  if (a_Position < 0 || a_PointSize < 0) {
+    console.log('Failed to get the storage location of a_Position');
+    return;
+  }
+
+  // 将顶点位置传输给attribute变量
+  // Pass vertex position to attribute variable
+  gl.vertexAttrib3f(a_Position, 0.5, 0.5, 0.0);
+  gl.vertexAttrib1f(a_PointSize, 5.0);
+
   // 设置<canvas>的背景色
   // Specify the color for clearing <canvas>
-  gl.clearColor(0.0, 0.0, 0.0, 1.0);
+  gl.clearColor(0.0, 0.0, 0.0, 0.5);
 
   // 清空<canvas>
   // Clear <canvas>
