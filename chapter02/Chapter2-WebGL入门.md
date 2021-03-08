@@ -148,6 +148,54 @@ gl_FragColor也是vec4类型的，分别代表RGBA格式
 
 传输与顶点无关（对所有顶点都相同）的数据
 
+### 使用方式
+
+1. 在片元着色器中，声明uniform变量
+
+   ```
+   precision mediump float; // 限定精度
+   uniform vec4 u_FragColor;
+   ```
+
+   **格式和attribute相同，必须按照：<存储限定符><类型><变量名>**
+
+2. 将uniform变量赋值给gl_FragColor变量
+
+   ```
+   gl_FragColor = u_FragColor;
+   ```
+
+   **至此就完成了片元着色器部分，它已经准备好从外部接收数据了**
+
+3. 要完成第二步，还需要向uniform变量传输数据，道理同attribute变量
+
+   - 获取uniform变量的存储位置
+
+
+   ```
+   // 获取uniform变量的存储位置
+   var u_FragColor = gl.getUniformLocation(gl.program, 'u_FragColor')；
+   ```
+
+   函数返回值为uniform变量的存储地址，但是需要检查其是否为null（gl.getAttribLocation()返回-1）
+
+   - 向uniform变量赋值
+
+     借助内置函数完成操作
+
+     ```
+     // 将数据传输给uniform变量
+     gl.uniform4f(u_FragColor, 0.0, 0.0, 0.0, 1.0);
+     ```
+
+     第一个参数为uniform变量的存储地址
+
+     第二，三，四，五个参数为四个浮点型数值，即点的r, g, b, a值
+
+     无返回值
+
+     至此就完成了向uniform变量传输数据
+
 ## 语言
 类似于C的OpenGL ES着色器语言（GLSL ES）
 ## 初始化着色器
@@ -158,11 +206,11 @@ gl_FragColor也是vec4类型的，分别代表RGBA格式
 
 ## WebGL程序执行流程
 
-1.获取<canvas>元素
-2.获取WebGL绘图上下文
-3.初始化着色器
-4.设置<canvas>背景色
-5.清除<canvas>
-6.绘图
+1. 获取<canvas>元素
+2. 获取WebGL绘图上下文
+3. 初始化着色器
+4. 设置<canvas>背景色
+5. 清除<canvas>
+6. 绘图
 
 
