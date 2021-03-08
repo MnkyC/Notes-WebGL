@@ -38,18 +38,21 @@ function main() {
     return;
   }
 
-  // 获取attribute变量的存储位置
-  // Get the storage location of a_Position
+  // 获取attribute变量a_Position和a_PointSize的存储位置
+  // Get the storage location of a_Position and a_PointSize
   var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
   var a_PointSize = gl.getAttribLocation(gl.program, 'a_PointSize');
   if (a_Position < 0 || a_PointSize < 0) {
-    console.log('Failed to get the storage location of a_Position');
+    console.log('Failed to get the storage location of a_Position and a_PointSize');
     return;
   }
 
   // 将顶点位置传输给attribute变量
   // Pass vertex position to attribute variable
   gl.vertexAttrib3f(a_Position, 0.5, 0.5, 0.0);
+
+  // 将顶点尺寸传输给attribute变量
+  // Pass vertex size to attribute variable
   gl.vertexAttrib1f(a_PointSize, 5.0);
 
   // 设置<canvas>的背景色
