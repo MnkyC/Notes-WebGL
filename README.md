@@ -23,4 +23,16 @@ The beauty of WebGL
 
 ## Chapter 3—绘制和变换三角形
 
+读书摘要
+
+- [Chapter3-绘制和变换三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/Chapter3-%E7%BB%98%E5%88%B6%E5%92%8C%E5%8F%98%E6%8D%A2%E4%B8%89%E8%A7%92%E5%BD%A2.md)
+
+示例程序
+
+- [lesson01-用ARRAY_BUFFER缓冲区绘制三个点](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson01/MultiPoint.js)
+- [lesson02-绘制三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson02/HelloTriangle.js)
+- [lesson03-绘制基本图形（LINES）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson03/HelloTriangle_LINES.js)
+- [lesson04-绘制基本图形（LINE_STRIP）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson04/HelloTriangle_LINE_STRIP.js)
+- [lesson05-绘制基本图形（LINE_LOOP）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson05/HelloTriangle_LINE_LOOP.js)
+
 # Author: MnkyC
