@@ -43,7 +43,7 @@ function main() {
   var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
   var a_PointSize = gl.getAttribLocation(gl.program, 'a_PointSize');
   if (a_Position < 0 || a_PointSize < 0) {
-    console.log('Failed to get the storage location of a_Position and a_PointSize');
+    console.log('Failed to get the storage location of a_Position or a_PointSize');
     return;
   }
 

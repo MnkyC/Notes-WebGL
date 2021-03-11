@@ -34,5 +34,8 @@ The beauty of WebGL
 - [lesson03-绘制基本图形（LINES）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson03/HelloTriangle_LINES.js)
 - [lesson04-绘制基本图形（LINE_STRIP）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson04/HelloTriangle_LINE_STRIP.js)
 - [lesson05-绘制基本图形（LINE_LOOP）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson05/HelloTriangle_LINE_LOOP.js)
+- [lesson06-绘制矩形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson06/HelloQuad.js)
+- [lesson07-绘制飘带](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson07/HelloQuad_FAN.js)
+- [lesson08-平移转换](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson08/TranslatedTriangle.js)
 
 # Author: MnkyC
