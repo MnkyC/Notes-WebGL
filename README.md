@@ -45,6 +45,8 @@ The beauty of WebGL
 
 ### 读书摘要
 
+- [Chapter4-高级变换与动画基础](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/Chapter4-%E9%AB%98%E7%BA%A7%E5%8F%98%E6%8D%A2%E4%B8%8E%E5%8A%A8%E7%94%BB%E5%9F%BA%E7%A1%80.md)
+
 ### 示例程序
 
 # Author: MnkyC
