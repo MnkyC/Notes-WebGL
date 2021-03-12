@@ -8,11 +8,11 @@ The beauty of WebGL
 
 ## Chapter 2—WebGL入门
 
-读书摘要
+### 读书摘要
 
 - [Chapter2-WebGL入门](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter02/Chapter2-WebGL%E5%85%A5%E9%97%A8.md)
 
-示例程序
+### 示例程序
 
 - [lesson01-绘制矩形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter02/lesson01/DrawRectangle.js)
 - [lesson02-绘制颜色](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter02/lesson02/HelloCanvas.js)
@@ -23,11 +23,11 @@ The beauty of WebGL
 
 ## Chapter 3—绘制和变换三角形
 
-读书摘要
+### 读书摘要
 
 - [Chapter3-绘制和变换三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/Chapter3-%E7%BB%98%E5%88%B6%E5%92%8C%E5%8F%98%E6%8D%A2%E4%B8%89%E8%A7%92%E5%BD%A2.md)
 
-示例程序
+### 示例程序
 
 - [lesson01-用ARRAY_BUFFER缓冲区绘制三个点](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson01/MultiPoint.js)
 - [lesson02-绘制三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson02/HelloTriangle.js)
@@ -37,5 +37,14 @@ The beauty of WebGL
 - [lesson06-绘制矩形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson06/HelloQuad.js)
 - [lesson07-绘制飘带](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson07/HelloQuad_FAN.js)
 - [lesson08-平移转换](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson08/TranslatedTriangle.js)
+- [lesson09-利用数学公式旋转变换](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson09/RotatedTriangle.js)
+- [lesson10-利用矩阵抽象旋转变换](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson10/RotatedTriangle_Matrix.js)
+- [lesson11-利用矩阵抽象进行缩放](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter03/lesson11/ScaledTriangle_Matrix.js)
+
+## Chapter 4—高级变换与动画基础
+
+### 读书摘要
+
+### 示例程序
 
 # Author: MnkyC
