@@ -52,5 +52,8 @@ The beauty of WebGL
 - [lesson01-利用矩阵库进行旋转变换](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson01/RotatedTriangle_Matrix4.js)
 - [lesson02-利用模型矩阵先平移后旋转](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson02/RotatedTranslatedTriangle.js)
 - [lesson03-利用模型矩阵先旋转后平移](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson03/TranslatedRotatedTriangle.js)
+- [lesson04-动画，三角形转动](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson04/RotatingTriangle.js)
+- [lesson05-动画，三角形转动平移](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson05/RotatingTranslatedTriangle.js)
+- [lesson06-动画，控制三角形速度](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson06/RotatingTriangle_withButtons.js)
 
 # Author: MnkyC
