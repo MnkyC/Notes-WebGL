@@ -56,4 +56,15 @@ The beauty of WebGL
 - [lesson05-动画，三角形转动平移](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson05/RotatingTranslatedTriangle.js)
 - [lesson06-动画，控制三角形速度](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter04/lesson06/RotatingTriangle_withButtons.js)
 
+## Chapter 5—颜色与纹理
+
+### 读书摘要
+
+- [Chapter5-颜色与纹理](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/Chapter5-%E9%A2%9C%E8%89%B2%E4%B8%8E%E7%BA%B9%E7%90%86.md)
+
+### 示例程序
+
+- [lesson01-使用多个缓冲区绘制](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson01/MultiAttributeSize.js)
+- [lesson02-使用一个缓冲区绘制](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson02/MultiAttributeSize_Interleaved.js)
+
 # Author: MnkyC
