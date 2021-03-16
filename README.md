@@ -66,5 +66,8 @@ The beauty of WebGL
 
 - [lesson01-使用多个缓冲区绘制](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson01/MultiAttributeSize.js)
 - [lesson02-使用一个缓冲区绘制](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson02/MultiAttributeSize_Interleaved.js)
+- [lesson03-varying变量改变顶点颜色](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson03/MultiAttributeColor.js)
+- [lesson04-varying变量绘制彩色三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson04/ColoredTriangle.js)
+- [lesson05-绘制彩色三角形，验证光栅化](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson05/HelloTriangle_FragCoord.js)
 
 # Author: MnkyC
