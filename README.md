@@ -69,5 +69,8 @@ The beauty of WebGL
 - [lesson03-varying变量改变顶点颜色](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson03/MultiAttributeColor.js)
 - [lesson04-varying变量绘制彩色三角形](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson04/ColoredTriangle.js)
 - [lesson05-绘制彩色三角形，验证光栅化](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson05/HelloTriangle_FragCoord.js)
+- [lesson06-使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson06/TexturedQuad.js)
+- [lesson07-调整纹理坐标来重复使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson07/TexturedQuad_Repeat.js)
+- [lesson08-填充和重复使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson08/TexturedQuad_Clamp_Mirror.js)
 
 # Author: MnkyC
