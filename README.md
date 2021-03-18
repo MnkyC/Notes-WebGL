@@ -72,5 +72,6 @@ The beauty of WebGL
 - [lesson06-使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson06/TexturedQuad.js)
 - [lesson07-调整纹理坐标来重复使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson07/TexturedQuad_Repeat.js)
 - [lesson08-填充和重复使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson08/TexturedQuad_Clamp_Mirror.js)
+- [lesson09-使用多个纹理](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson09/MultiTexture.js)
 
 # Author: MnkyC
