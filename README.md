@@ -74,4 +74,10 @@ The beauty of WebGL
 - [lesson08-填充和重复使用纹理图像](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson08/TexturedQuad_Clamp_Mirror.js)
 - [lesson09-使用多个纹理](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter05/lesson09/MultiTexture.js)
 
+## Chapter 6—OpenGL ES着色器语言（GLSL ES）
+
+### 读书摘要
+
+- [Chapter6-OpenGL ES着色器语言（GLSL ES）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter06/Chapter6-OpenGL%20ES%E7%9D%80%E8%89%B2%E5%99%A8%E8%AF%AD%E8%A8%80%EF%BC%88GLSL%20ES%EF%BC%89.md)
+
 # Author: MnkyC
