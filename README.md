@@ -80,4 +80,16 @@ The beauty of WebGL
 
 - [Chapter6-OpenGL ES着色器语言（GLSL ES）](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter06/Chapter6-OpenGL%20ES%E7%9D%80%E8%89%B2%E5%99%A8%E8%AF%AD%E8%A8%80%EF%BC%88GLSL%20ES%EF%BC%89.md)
 
+## Chapter 7—进入三维世界
+
+### 读书摘要
+
+- [Chapter7-进入三维世界](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/Chapter7-%E8%BF%9B%E5%85%A5%E4%B8%89%E7%BB%B4%E4%B8%96%E7%95%8C.md)
+
+### 示例程序
+
+- [lesson01-视点，观察点，上方向](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson01/LookAtTriangles.js)
+- [lesson02-矩阵旋转](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson02/LookAtRotatedTriangles.js)
+- [lesson03-矩阵相乘实现旋转](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson03/LookAtRotatedTriangles_mvMatrix.js)
+
 # Author: MnkyC
