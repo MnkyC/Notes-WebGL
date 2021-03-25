@@ -91,5 +91,6 @@ The beauty of WebGL
 - [lesson01-视点，观察点，上方向](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson01/LookAtTriangles.js)
 - [lesson02-矩阵旋转](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson02/LookAtRotatedTriangles.js)
 - [lesson03-矩阵相乘实现旋转](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson03/LookAtRotatedTriangles_mvMatrix.js)
+- [lesson04-通过键盘事件调整视图坐标](https://github.com/MnkyC/Notes-WebGL/blob/main/chapter07/lesson04/LookAtTrianglesWithKeys.js)
 
 # Author: MnkyC
